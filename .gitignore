@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+DataTables/
+build/
+transpile/
+
+# don't upload credentials
+creds.js

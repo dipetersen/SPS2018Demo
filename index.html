@@ -1,0 +1,79 @@
+<div id="app-main">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../siteassets/{APPNAME}/assets/logo-demo.png" alt="{APPNAME}" height="30" /> {APPNAME}
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" data-function="New" href="#">New</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-function="ViewAll" href="#">View All</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="app-container"></div>
+    <div id="debug-log-container" class="container" style="padding-top: 20px; display:none">
+        <div class="row">
+            <div class="col-sm-12">
+                <pre id="debug-log"></pre>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- dialog -->
+<div id="genericdialog" style="display:none;" class="modal fade" role="dialog" aria-labelledby="DialogBoxLabel">
+    <div class="modal-dialog" style="width: 50%">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4></h4>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery and jQueryUI -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css" />
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<!-- Bootstrap Dialog -->
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/css/bootstrap-dialog.min.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+
+<!-- DataTables -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.16/b-1.5.1/b-html5-1.5.1/datatables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.16/b-1.5.1/b-html5-1.5.1/datatables.min.js"></script>
+
+
+<!-- Toastr Alerts -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+
+<!-- Miscellaneous Libraries -->
+<script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+
+<!-- App Code and Style -->
+<link rel="stylesheet" type="text/css" href="../SiteAssets/{APPNAME}/css/{APPNAME}.min.css" />
+<script type="text/javascript " src="../SiteAssets/{APPNAME}/js/{APPNAME}.min.js"></script>

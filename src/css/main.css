@@ -1,0 +1,78 @@
+#app-container {
+    margin-top: 30px;
+}
+
+#international-main {
+    font-size: 12pt;
+}
+
+.inv-header {
+    background-color: #efefef;
+    height: 75px;
+    padding: 20px;
+    color: #075198;
+}
+
+.app-logo {
+    height: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+.app-name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #075198;
+}
+
+#pageTitle {
+    display: none !important;
+}
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.navbar-printicon {
+    margin-top: -3px;
+    cursor: pointer;
+    font-size: 2em !important
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #dcdcdc;
+}
+
+table>thead>tr>th {
+    text-align: center;
+}
+
+
+/*
+.glyphicon {
+    font-size: 18px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+*/
+
+.input-text-small {
+    max-width: 80px;
+}
+
+.input-text-med {
+    max-width: 110px;
+}
+
+.avatar {
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 150px;
+}
+
+.edit-item,
+.delete-item {
+    cursor: pointer;
+}
