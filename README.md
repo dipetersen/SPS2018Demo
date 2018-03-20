@@ -56,3 +56,18 @@ const testUrl = "https://omahasharepointusergroup.sharepoint.com/sites/dev";
 ```
 4.  Run ```>> npm install```
 
+5.  Create a list in your SharePoint Site called ```MockData``` with the following columns:
+
+
+```
+Internal Name | Display Name | Type
+------------- | ------------ | ---------------------
+Title         | first_name   | Single Line of Text
+last_name     | last_name    | Single Line of Text
+company       | company      | Single Line of Text
+email         | email        | Single Line of Text
+avatar        | avatar       | Single Line of Text
+description   | description  | Multiple Lines of Text
+```
+
+
