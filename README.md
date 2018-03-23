@@ -44,9 +44,9 @@ Files to start a new SP Project
 ```javascript
 // Edit the following four variable values specific to the project
 const appName = "SPS2018Demo";
-const devUrl = "https://omahasharepointusergroup.sharepoint.com/sites/dev"
-const prodUrl = "https://omahasharepointusergroup.sharepoint.com/sites/dev";
-const testUrl = "https://omahasharepointusergroup.sharepoint.com/sites/dev";
+const devUrl = "<URL to DEV>";
+const prodUrl = "<URL to PROD>";
+const testUrl = "<URL to TEST Site>";
 ```
 3.  Create the build directory structure.
 ```
