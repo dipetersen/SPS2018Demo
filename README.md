@@ -1,4 +1,4 @@
-# Project Starter Files
+# SPS 2018 Demo
 
 Files to start a new SP Project
 
