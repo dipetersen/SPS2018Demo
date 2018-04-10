@@ -1,6 +1,11 @@
 # SPS 2018 Demo
 
-Files to start a new SP Project
+### Slides
+You can download the slides from [here](https://1drv.ms/p/s!Aup8Os_ghyz8g-hP8RTn7EKohNQIug).
+
+### Files
+
+You will need the following files to start a new SP Project.  The structure is below.  
 
 ## Structure
 
